@@ -6,7 +6,7 @@ description: Keeps an eye on rents. Everywhere in Europe, all the time.
 logo: site-logo.png
 search: true
 baseurl: /rentswatch-blog
-url: /rentswatch-blog
+production_url : http://jplusplus.github.io/rentswatch-blog
 
 # Jekyll configuration
 permalink:   /:title/
