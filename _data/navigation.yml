@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: About
+  url: /about/
+
+- title: By Journalism++
+  url: http://jplusplus.org
+
+- title: Search
+  url: /search/
