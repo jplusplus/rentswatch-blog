@@ -5,10 +5,9 @@ locale: en_US
 description: Keeps an eye on rents. Everywhere in Europe, all the time.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+baseurl: /rentswatch-blog
 
 # Jekyll configuration
-
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
