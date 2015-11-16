@@ -1,20 +1,8 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
+pirhoo:
+  name: Pierre Romera
+  web: http://www.pirhoo.com
+  email: hello@pirhoo.com
+  avatar: https://secure.gravatar.com/avatar/f514016d15f3d5409177c1031eedb0a5?s=200
+  twitter: pirhoo
