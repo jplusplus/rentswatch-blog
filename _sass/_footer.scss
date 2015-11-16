@@ -28,3 +28,18 @@
     }
   }
 }
+
+
+.miz-logo {
+  margin-bottom:20px;
+  display: block;
+  opacity:0.7;
+
+  img {
+    height:60px;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
