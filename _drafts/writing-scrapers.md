@@ -4,11 +4,11 @@ title: "Writing scrapers with Rentswatch"
 excerpt:
 ---
 
-Rentswatch focuses on extracting classified ads. To do so, we setup a large collection
-of tiny robots that analyse and extract data from websites. In a attempt of efficiency
+Rentswatch focuses on extracting classified ads. To do so, we set up a large collection
+of tiny robots that analyze and extract data from websites. For the sake efficiency
 we created a framework that harmonizes the way we code those scrapers.
 
-This post details how to write a scraper in **python** and using this framework.
+This post details how to write a scraper in **python** using this framework.
 
 How to install
 ==============
@@ -22,7 +22,7 @@ pip install rentswatch-scraper
 How to use
 ==========
 
-Let's take a look at a quick example of using Rentswatch Scraper to
+Let's take a look at a quick example of a Rentswatch Scraper to
 build a simple model-backed scraper to collect data from a website.
 
 First, import the package components to build your scraper:
@@ -123,4 +123,4 @@ with descriptions](https://github.com/jplusplus/rentswatch-scraper#class-scraper
 By overriding those methods you can completely change the behavior of your scraper.
 For instance, `get_series` method is used to extract every ads list and parse
 the page to create a iterator with every ads in this list. The `get_ad_href` method
-receives a *soup* of an ad's block in order to extract the link to thus ad.  
+receives a *soup* of an ad's block in order to extract the link to the ad.  
