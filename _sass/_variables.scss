@@ -3,7 +3,7 @@ $base-font: 'source-sans-pro', sans-serif;
 $heading-font: $base-font;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
-$alt-font: 'volkhov', serif;
+$alt-font: 'actor', sans-serif;
 
 $doc-font-size: 16;
 $doc-line-height: 24;
@@ -21,7 +21,7 @@ body {
 // COLORS =====================================================
 $body-color         : #fff;
 $text-color         : #222;
-$base-color         : #3e3a5a;    
+$base-color         : #3e3a5a;
 $comp-color         : spin($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
