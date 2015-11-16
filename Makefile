@@ -2,4 +2,4 @@ install:
 	gem install bundler jekyll
 
 run:
-	bundle exec jekyll serve --baseurl ''
+	bundle exec jekyll serve --drafts --baseurl ''
