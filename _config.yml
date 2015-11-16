@@ -5,7 +5,7 @@ locale: en_US
 description: Keeps an eye on rents. Everywhere in Europe, all the time.
 logo: site-logo.svg
 search: true
-baseurl: '/'
+baseurl: 'http://blog.rentswatch.com'
 production_url : http://blog.rentswatch.com
 
 # Jekyll configuration
