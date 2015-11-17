@@ -74,8 +74,8 @@ class DummyScraper(Scraper):
     livingSpace = RegexField('.description-list', 'surface :(\d*)', required=True, exception=reporting.SpaceMissingError)
     # Extract the value directly, without using a Regex
     totalRent = RegexField('.description-price', required=True, exception=reporting.RentMissingError)
-    # Store this value as a private property (begining with a underscore).
-    # It won't be saved in the database but it can be helpful as you we'll see.
+    # Store this value as a private property (begining with an underscore).
+    # It won't be saved in the database but it can be helpful, as you we'll see.
     _address = RegexField('.description-address')
 {% endhighlight %}
 
@@ -96,11 +96,11 @@ class DummyScraper(Scraper):
     # Use existing properties `totalRent` and `livingSpace` as they were
     # extracted before this one.
     pricePerSqm = ComputedField(fn=lambda s, values: values["totalRent"] / values["livingSpace"])
-    # This full exemple uses private properties to find latitude and longitude.
-    # To do so we use a buid-in function named `convert` that transforms an
-    # address into a dictionary of coordinates.
+    # This full example uses private properties to find latitude and longitude.
+    # To do so we use a built-in function named `convert` that transforms an
+    # address to a Python dictionary of coordinates.
     _latLng = ComputedField(fn=lambda s, values: geocode(values['_address'], 'FRA') )
-    # Gets a the dictionary field we want.
+    # Gets the Python dictionary field we want.
     latitude = ComputedField(fn=lambda s, values: values['_latLng']['lat'])
     longitude = ComputedField(fn=lambda s, values: values['_latLng']['lng'])
 {% endhighlight %}
