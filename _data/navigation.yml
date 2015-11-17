@@ -1,10 +1,10 @@
 # Site navigation links
 
-- title: Home
-  url: /
+- title: Rentswatch
+  url: http://Rentswatch.com
 
-- title: About
-  url: /about/
+- title: Blog home
+  url: /
 
 - title: By Journalism++
   url: http://jplusplus.org
