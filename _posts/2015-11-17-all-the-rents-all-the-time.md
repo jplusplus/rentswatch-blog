@@ -3,6 +3,7 @@ layout: post
 title: "Rentswatch: All the rents, all the time"
 excerpt: "Introducing Rentswatch, a platform to monitor rent prices in Europe."
 author: nkb
+date: 2015-11-17
 ---
 
 ![Flat in London](../images/cl-london.jpg)

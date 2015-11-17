@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Writing scrapers with Rentswatch"
-excerpt:
+excerpt: "Explaining the inner workings of our a rentswatch scraper."
 author: pirhoo
+date: "2015-11-17"
 ---
 
 Rentswatch focuses on extracting classified ads. To do so, we set up a large collection
