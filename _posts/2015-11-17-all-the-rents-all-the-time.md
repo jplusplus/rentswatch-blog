@@ -19,6 +19,6 @@ We want to change that. We will provide a database of rents, all across Europe, 
 
 We will go further than simply collecting data. We will also rethink urban geography. For someone living in Lisbon, the average rent price of a flat in Portugal is of little value. Similarily, the price of flats in Lisbon within its very narrow city limits is useless. (Lisbon is, with Paris and Athens, a basket case of administrative boundaries bearing no realities with the actual city). Basel (below), spreads over 3 _countries_ and, in Switzerland, over 2 cantons. In such conditions, finding an administrative region that matches any kind of reality becomes impossible.
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8fb96f38-8ca0-11e5-a524-0e7075bba956"></iframe>
+<iframe frameborder="0" class="juxtapose" width="100%" height="750" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8fb96f38-8ca0-11e5-a524-0e7075bba956"></iframe>
 
 Using micro-level data, we can aggregate data in any way we see fit. We can analyze rent prices along a subway or bus line. We can display rent prices within a 30-minute drive of any location. We can get rid of administrative divisions to provide information that is actually useful to European renters.
