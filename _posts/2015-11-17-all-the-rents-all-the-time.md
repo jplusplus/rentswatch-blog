@@ -5,9 +5,9 @@ excerpt: "Introducing Rentswatch, a platform to monitor rent prices in Europe."
 author: nkb
 ---
 
-![Flat in Ealing](../images/ealing-flat.jpg)
+![Flat in London](../images/cl-london.jpg)
 
-This London kitchen was up for rent - as a studio - in early 2015 ([source: TimeOut London](http://now-here-this.timeout.com/2015/02/20/rent-a-flat-with-a-bed-in-the-kitchen-for-804-a-month/#.VOdfeNzQns4.twitter)). Price per month: 1,150€. Working for the minimum wage, a 20-year old would have to spend 100% of her income to afford it.
+This charming London studio, 8 kilometers from city center and next to a railway, was put up for rent on November 17, 2015 [on Craigslist](http://london.craigslist.co.uk/apa/5301605580.html)). Price per month: 1,300€. Working for the minimum wage, a 20-year old would have to spend 110% of her income to afford it.
 
 In European cities, rent prices is the main concern of most of the younger part of the population. Someone who does not own his flat or who has not managed to get in a subsidized housing program lives at the mercy of his landlords. One in four renters in Europe spends more than 40% of their income on rent ([source: Eurostat](http://ec.europa.eu/eurostat/statistics-explained/index.php/Housing_conditions#Housing_affordability)). These precarious renters are without a doubt young and living in large metropolises.
 
