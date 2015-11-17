@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rentswatch: All the rents, all the time"
-excerpt: "Introducing Rentswatch."
+excerpt: "Introducing Rentswatch, a platform to monitor rent prices in Europe."
 author: nkb
 ---
 
