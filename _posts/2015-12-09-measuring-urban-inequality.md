@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Measuring urban inequality"
+title: "In Paris, poverty is nearer than you think"
 excerpt: "Looking at prices neighborhood by neighborhood"
 author: nkb
 date: 2015-12-09
 ---
+
+Paris is 4 times more unequal than Berlin. This is the result of a statistical analysis of the prices of 19,000 flats in both cities.
 
 Paris is, by far, the richest city in continental Europe. That wealth is unequally spread is obvious. The two pictures below, for instance, were taken at just 5 kilometers of each other.
 
