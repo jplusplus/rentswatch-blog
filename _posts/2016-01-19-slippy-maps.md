@@ -28,9 +28,10 @@ We told the computer to go from the tile at the North-West corner of Europe all 
 				S_tile, E_tile = num2deg(X + 1, Y + 1, zoom_level)
 
 				#Are we in Europe?
-				if N_tile < N_max and S_tile > S_max and E_tile < E_max and W_tile > W_max:
+				if N_tile < N_max and S_tile > S_max :
+					if E_tile < E_max and W_tile > W_max:
 
-					# Makes the tile...
+						# Makes the tile...
 
 The complete code [is available on Github](https://github.com/jplusplus/rentswatch-stats/blob/master/analyses/tiles/make_tiles.py).
 
