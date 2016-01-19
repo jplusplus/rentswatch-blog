@@ -15,7 +15,8 @@ Inspired by the examples from Comeetie, who mapped revenue in France block by bl
 We decided to overlay tiles that contain rent prices for each square of 500m x 500m, all across Europe. Instead of having an image of the rent prices, we We just had to make a computer program that could generate the thousand of tiles that we needed.
 
 We told the computer to go from the tile at the North-West corner of Europe all the way to the tile at the South-East and to compute the average rent along the way. The code looked something like this:
-
+	
+	# Loops through all zoom levels
 	for zoom_level in range(4,13):
 
 		# Computes all tiles for the whole world
@@ -29,7 +30,7 @@ We told the computer to go from the tile at the North-West corner of Europe all 
 				#Are we in Europe?
 				if N_tile < N_max and S_tile > S_max and E_tile < E_max and W_tile > W_max:
 
-					# Makes the tile
+					# Makes the tile...
 
 The complete code [is available on Github](https://github.com/jplusplus/rentswatch-stats/blob/master/analyses/tiles/make_tiles.py).
 
@@ -40,17 +41,15 @@ This approach works well for zoom levels where there are few tiles. However, at 
 
 		#Loops through all cities
 		for city in cities:
-			
-			city_lat = float(city[2])
-			city_lng = float(city[1])
 
 			#Finds out which tile the city is in
 			X_city, Y_city = deg2num(city_lat, city_lng, zoom_level)
 			
+			# Computes the 16 tiles around the city
 			for X in range(X_city - 2, X_city + 2):
 				for Y in range (Y_city - 2, Y_city + 2):
 
-					# Makes the tile
+					# Makes the tile...
 
 The complete code [is available on Github](https://github.com/jplusplus/rentswatch-stats/blob/master/analyses/tiles/city_make_tiles.py).
 
