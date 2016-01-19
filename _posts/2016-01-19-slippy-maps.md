@@ -35,7 +35,7 @@ We told the computer to go from the tile at the North-West corner of Europe all 
 
 The complete code [is available on Github](https://github.com/jplusplus/rentswatch-stats/blob/master/analyses/tiles/make_tiles.py).
 
-This approach works well for zoom levels where there are few tiles. However, at lower zoom levels, where you need thousands and thousands of tiles to cover Europe, the operation would take days on an average computer. -Because we cannot rent a supercomputer- Because we strive to be more efficient, we had to devise a better method. Instead of computing rents for all of Europe linearily, including the vast swathes of territory for which we have no data (e.g. the sea), we decided to start from the 600 cities where we had more than 100 data points. For each city, the computer creates the neighboring tiles. The logic looks like this:
+This approach works well for zoom levels where there are few tiles. However, at lower zoom levels, where you need thousands and thousands of tiles to cover Europe, the operation would take days on an average computer. <s>Because we cannot rent a supercomputer</s> Because we strive to be more efficient, we had to devise a better method. Instead of computing rents for all of Europe linearily, including the vast swathes of territory for which we have no data (e.g. the sea), we decided to start from the 600 cities where we had more than 100 data points. For each city, the computer creates the neighboring tiles. The logic looks like this:
 
 	# Loops through all zoom levels
 	for zoom_level in range(4,13):
