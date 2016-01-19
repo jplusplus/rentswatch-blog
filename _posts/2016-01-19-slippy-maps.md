@@ -56,7 +56,7 @@ The complete code [is available on Github](https://github.com/jplusplus/rentswat
 
 This way, it takes just a few hours to create the tiles for almost all the places in Europe for which we have information on rents.
 
-The result is a slippy map of Europe where the color of each square represents the average renting price. The more red the square, the higher the rents. Each square contains the average price for at least 3 data points. Empty areas are those for which we have less than 3 data points. Great Britain and Ireland do not appear because we cannot find data on prices per square meters.
+The result is a slippy map of Europe where the color of each square represents the average renting price. The more red the square, the higher the rents. Each square contains the average price for at least 3 data points. Empty areas are those for which we have less than 3 data points.
 
 The map will be live when we launch, in May 2016. Let's zoom in on Düsseldorf, for instance. You can see the gap between Oberkassel, Carstadt and the rest of the city. But when you zoom out, you can clearly see that this divide is nothing compared to the divide between Germany and Switzerland, for instance.
 
