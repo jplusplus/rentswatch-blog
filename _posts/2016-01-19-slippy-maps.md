@@ -8,7 +8,7 @@ date: 2016-01-19
 
 We build Rentswatch to visualize rent prices across borders easily. To do so, we needed to make a map. Several free and easy-to-use tools exist to map data, such as CartoDB and Google Fusion Tables. But they won't let you map several hundred thousand data points fast. We had to find something else.
 
-Inspired by the examples from Comeetie, who mapped revenue in France block by block, and by the Berliner Morgenpost, which mapped the demographic evolution of each city in Europe, we decided to make our own tiles. The maps you see online are mainly a large collection of square images - _tiles_ - stiched together. For each zoom level, the globe is divided in a number of tiles that have a position on a large grid. At higher zoom levels, the globe is divided in few tiles. The more you zoom, the more tiles you need to cover the globe. This, for instance, is tile number 2125/1367 for zoom level 12, which shows a part of Düsseldorf:
+Inspired by the examples from Comeetie, who mapped revenue in France block by block, and by the Berliner Morgenpost, which mapped the demographic evolution of each city in Europe, we decided to make our own tiles. The maps you see online are mainly a large collection of square images - _tiles_ - stitched together. For each zoom level, the globe is divided in a number of tiles that have a position on a large grid. At higher zoom levels, the globe is divided in few tiles. The more you zoom, the more tiles you need to cover the globe. This, for instance, is tile number 2125/1367 for zoom level 12, which shows a part of Düsseldorf:
 
 !["The tile 2125/1367, which shows part of Düsseldorf"](http://a.tile.openstreetmap.org/12/2125/1367.png)
 
@@ -56,7 +56,9 @@ The complete code [is available on Github](https://github.com/jplusplus/rentswat
 
 This way, it takes just a few hours to create the tiles for almost all the places in Europe for which we have information on rents.
 
-The result is a slippy map of Europe where the color of each square represents the average renting price. The more red the square, the higher the rents. The map will be live when we launch, in May 2016. Let's zoom in on Düsseldorf, for instance. You can see the gap between Oberkassel, Carstadt and the rest of the city. But when you zoom out, you can clearly see that this divide is nothing compared to the divide between Germany and Switzerland, for instance.
+The result is a slippy map of Europe where the color of each square represents the average renting price. The more red the square, the higher the rents. Each square contains the average price for at least 3 data points. Empty areas are those for which we have less than 3 data points. Great Britain and Ireland do not appear because we cannot find data on prices per square meters.
+
+The map will be live when we launch, in May 2016. Let's zoom in on Düsseldorf, for instance. You can see the gap between Oberkassel, Carstadt and the rest of the city. But when you zoom out, you can clearly see that this divide is nothing compared to the divide between Germany and Switzerland, for instance.
 
 !["Zoom level 12"](../images/12.jpg)
 !["Zoom level 11"](../images/11.jpg)
