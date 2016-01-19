@@ -16,51 +16,47 @@ We decided to overlay tiles that contain rent prices for each square of 500m x 5
 
 We told the computer to go from the tile at the North-West corner of Europe all the way to the tile at the South-East and to compute the average rent along the way. The code looked something like this:
 
-```
-for zoom_level in range(4,13):
+	for zoom_level in range(4,13):
 
-	# Computes all tiles for the whole world
-	for X in range (0, int(math.pow(2, zoom_level))):
-		for Y in range (0, int(math.pow(2, zoom_level))):
-			
-			# Finds the bounds of each tile
-			N_tile, W_tile = num2deg(X, Y, zoom_level)
-			S_tile, E_tile = num2deg(X + 1, Y + 1, zoom_level)
+		# Computes all tiles for the whole world
+		for X in range (0, int(math.pow(2, zoom_level))):
+			for Y in range (0, int(math.pow(2, zoom_level))):
+				
+				# Finds the bounds of each tile
+				N_tile, W_tile = num2deg(X, Y, zoom_level)
+				S_tile, E_tile = num2deg(X + 1, Y + 1, zoom_level)
 
-			#Are we in Europe?
-			if N_tile < N_max and S_tile > S_max and E_tile < E_max and W_tile > W_max:
+				#Are we in Europe?
+				if N_tile < N_max and S_tile > S_max and E_tile < E_max and W_tile > W_max:
 
-				# Makes the tile
-```
+					# Makes the tile
 
 The complete code [is available on Github](https://github.com/jplusplus/rentswatch-stats/blob/master/analyses/tiles/make_tiles.py).
 
 This approach works well for zoom levels where there are few tiles. However, at lower zoom levels, where you need thousands and thousands of tiles to cover Europe, the operation would take days on an average computer. -Because we cannot rent a supercomputer- Because we strive to be more efficient, we had to devise a better method. Instead of computing rents for all of Europe linearily, including the vast swathes of territory for which we have no data (e.g. the sea), we decided to start from the 600 cities where we had more than 100 data points. For each city, the computer creates the neighboring tiles. The logic looks like this:
 
-```
-# Loops through all zoom levels
-for zoom_level in range(4,13):
+	# Loops through all zoom levels
+	for zoom_level in range(4,13):
 
-	#Loops through all cities
-	for city in cities:
-		
-		city_lat = float(city[2])
-		city_lng = float(city[1])
+		#Loops through all cities
+		for city in cities:
+			
+			city_lat = float(city[2])
+			city_lng = float(city[1])
 
-		#Finds out which tile the city is in
-		X_city, Y_city = deg2num(city_lat, city_lng, zoom_level)
-		
-		for X in range(X_city - 2, X_city + 2):
-			for Y in range (Y_city - 2, Y_city + 2):
+			#Finds out which tile the city is in
+			X_city, Y_city = deg2num(city_lat, city_lng, zoom_level)
+			
+			for X in range(X_city - 2, X_city + 2):
+				for Y in range (Y_city - 2, Y_city + 2):
 
-				# Makes the tile
-```
+					# Makes the tile
 
 The complete code [is available on Github](https://github.com/jplusplus/rentswatch-stats/blob/master/analyses/tiles/city_make_tiles.py).
 
 This way, it takes just a few hours to create the tiles for almost all the places in Europe for which we have information on rents.
 
-The result is a slippy map of Europe where the color of each square represents the average renting price. The map will be live when we launch, in May 2016. Let's zoom in on Düsseldorf, for instance. You can see the divide between Oberkassel, Carstadt and the rest of the city. But when you zoom out, you can clearly see that this divide is nothing compared to the divide between Germany and Switzerland, for instance.
+The result is a slippy map of Europe where the color of each square represents the average renting price. The more red the square, the higher the rents. The map will be live when we launch, in May 2016. Let's zoom in on Düsseldorf, for instance. You can see the gap between Oberkassel, Carstadt and the rest of the city. But when you zoom out, you can clearly see that this divide is nothing compared to the divide between Germany and Switzerland, for instance.
 
 !["Zoom level 12"](../images/12.jpg)
 !["Zoom level 11"](../images/11.jpg)
