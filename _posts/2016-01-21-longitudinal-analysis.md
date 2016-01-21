@@ -8,11 +8,16 @@ date: 2016-01-21
 
 Rentswatch is a long-term project that tracks how rents change over time. We started data collection in August 2015 and can now analyze 6 months' worth of data.
 
-6 months is not enough to track any serious increase in rent prices, but some interesting trends already emerge. In many areas, *prices seem to slide in the autumn and hit bottom in December* before rebounding in January.
+6 months is not enough to track any serious increase in rent prices, but some interesting trends already emerge. In many of the most sought-after areas in Paris and Berlin (Neukölln, Weinmeisterstraße, Savignyplatz, République, Saint-Michel), **prices seem to slide in the autumn and hit bottom in December** before rebounding in January. Notice as well that some neighborhoods follow opposite trajectories.
 
 The average price per square meter is the blue line. The gray area shows the margin of error. For Paris and Berlin, we looked at properties within a 10-kilometer radius of the city center. For other locations, the radius is 2 kilometers.
 
+## Berlin
+
 !["Prices in Berlin over time"](../images/graph-Berlin.png)
+
+## Paris
+
 !["Prices in Paris over time"](../images/graph-Paris.png)
 
 ## Want to see the data for your city?
