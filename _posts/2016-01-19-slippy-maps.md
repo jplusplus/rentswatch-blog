@@ -12,7 +12,7 @@ Inspired by the examples from Comeetie, who mapped [revenue in France block by b
 
 !["The tile 2125/1367, which shows part of Düsseldorf"](http://a.tile.openstreetmap.org/12/2125/1367.png)
 
-We decided to overlay tiles that contain rent prices for each square of 500m x 500m, all across Europe. Instead of having an image of the rent prices, we We just had to make a computer program that could generate the thousand of tiles that we needed.
+We decided to overlay tiles that contain rent prices for each square of 500m x 500m, all across Europe. Instead of having an image of the rent prices, we just had to make a computer program that could generate the thousand of tiles that we needed.
 
 We told the computer to go from the tile at the North-West corner of Europe all the way to the tile at the South-East and to compute the average rent along the way. The code looked something like this:
 	
