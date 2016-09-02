@@ -18,7 +18,7 @@ Avec un <a href="http://www.insee.fr/fr/themes/document.asp?reg_id=20&ref_id=205
 
 <iframe width="100%" height="520" frameborder="0" src="https://paddymonsun.carto.com/viz/3dceccc2-6f80-11e6-8a27-0e233c30368f/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-Trouver un premier logement pour les jeunes diplômés est d’autant plus complexe. La <a href="http://dares.travail-emploi.gouv.fr/dares-etudes-et-statistiques/etudes-et-syntheses/dares-analyses-dares-indicateurs-dares-resultats/article/hausse-soutenue-du-taux-d-entree-en-cdd-dans-les-mouvements-de-main-d-oeuvre-au" target="_blank">part des CDD à l’embauche</a> contrats souvent rédhibitoires dans un dossier de location, atteint 84.2%. Le salaire médian pour un BAC+5 est de <a href="https://presse.apec.fr/Presse/Communiques-de-l-Apec/Les-Etudes/jeunes-diplomes-2015" target="_blank">25 700 euros brut</a> à l’embauche, soit 1649 euros net mensuel, loin encore du salaire requis pour louer un logement décent à Paris. 
+Trouver un premier logement pour les jeunes diplômés est d’autant plus complexe. La <a href="http://dares.travail-emploi.gouv.fr/dares-etudes-et-statistiques/etudes-et-syntheses/dares-analyses-dares-indicateurs-dares-resultats/article/hausse-soutenue-du-taux-d-entree-en-cdd-dans-les-mouvements-de-main-d-oeuvre-au" target="_blank">part des CDD à l’embauche</a>, contrats souvent rédhibitoires dans un dossier de location, atteint 84.2%. Le salaire médian pour un BAC+5 est de <a href="https://presse.apec.fr/Presse/Communiques-de-l-Apec/Les-Etudes/jeunes-diplomes-2015" target="_blank">25 700 euros brut</a> à l’embauche, soit 1649 euros net mensuel, loin encore du salaire requis pour louer un logement décent à Paris. 
 
 ## Un studio de 13m² pour un jeune actif
 
@@ -27,9 +27,6 @@ Un jeune actif peut donc espérer vivre dans un studio de 13m<sup>2</sup> dans l
 
 ![530 euros pour un 13m²](../images/530e_13m2.png)
 <i>source : [seloger.com](https://archive.fo/E2eKP)</i>
-
-![530 euros pour un 13m²](../images/530e_13m2_loyermax.png)
-<i>source : [encadrementdesloyers.gouv.fr](http://www.encadrementdesloyers.gouv.fr/)</i>
 
 
 Même à deux et en CDI, accéder à l'indépendance est un tour de force :
