@@ -11,7 +11,7 @@ production_url : http://blog.rentswatch.com
 # Jekyll configuration
 permalink:   /:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
